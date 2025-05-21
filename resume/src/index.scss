@@ -27,9 +27,13 @@ $box-shadow-light: 0 0 6px 0 #e2e2e2;
   padding: 0;
 }
 .wrapper {
-  display: grid;
-  grid-template-rows: 60px 2fr 100px;
-  height: 100vh;
+  // display: flex;
+  // // align-items: ;
+  // flex-wrap: wrap;
+  // height: 100vh;
+  // header, footer {
+  //   flex-basis: 100%;
+  // }
 }
 
 p {
@@ -142,8 +146,3 @@ p {
   }
 }
 
-@media screen and (max-width: 991px) {
-  .wrapper {
-    grid-template-rows: 60px 2fr 1fr;
-  }
-}
