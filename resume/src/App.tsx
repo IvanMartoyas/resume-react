@@ -1,12 +1,20 @@
-import { useState } from 'react'
+// import { useState } from 'react'
 import './App.scss'
+import Main_layout from './layout/Main_layout.jsx';
+import { Provider } from 'react-redux';
+
+
+import {store} from './store/store.js'
 
 function App() {
  // const [count, setCount] = useState(0)
 
   return (
     <>
-      <h1>Резюме</h1>
+      <Provider store={store}>
+        <Main_layout></Main_layout>
+      </Provider>
+      
     </>
   )
 }

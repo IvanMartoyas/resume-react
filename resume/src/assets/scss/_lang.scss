@@ -1,0 +1,41 @@
+.lang {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .lang__select {
+        padding: .3em 1em;
+        background: $acent3;
+        border-radius: $border-radius-middle;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        cursor: pointer;
+    }
+    img {
+        object-fit: contain;
+        object-position: center;
+        width: 20px;
+        height: 20px;
+    }
+    .lang__list {
+        position: absolute;
+        z-index: 99;
+        left: 0;
+        right: 0;
+        // color:  $acent9;
+        border-radius: .4em;
+        top: 120%;
+        width: 100px;
+        transition: .4s ease-in-out;
+        overflow: hidden;
+        .lang__element {
+            cursor: pointer;
+            padding: .4em;
+            &:hover {
+                background: $hover-light;
+            }
+        }
+    }
+}
