@@ -5,16 +5,18 @@ export default function Works () {
     let _lang_index = useSelector((state) => state.lang.value);
     return (
         <>
-            <div className=''>
-                <h2>{work_experience.label[_lang_index]}</h2>
-            </div>
-            <div className="mt-4">
-                {work_experience.data.map((factory, i) => <Company key={i} company={factory} className=""></Company> )}
+            <div className="card p-3">
+                <div className=''>
+                    <h2>{work_experience.label[_lang_index]}</h2>
+                </div>
+                <div className="mt-4">
+                    {work_experience.data.map((factory, i) => <Company key={i} company={factory} className=""></Company> )}
+                </div>
             </div>
         </>
     )
 }
-// timeEnd    timeStart    place_worck
+
 function Company({company}) {
     
     let _lang_index = useSelector((state) => state.lang.value);
@@ -33,7 +35,7 @@ function Company({company}) {
     }
 
     return (
-        <div className="bg-secondary card company mb-2 p-3 text-bg-secondary">
+        <div className="bg-secondary card company mb-3 p-3 text-bg-secondary">
             <header className="company__map">
                 <div className='badge bg-danger'>{company.label[_lang_index]}</div>
                 <p>{company.place_worck.label[_lang_index]}</p>

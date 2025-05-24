@@ -1,9 +1,6 @@
 import { base } from '../model/resume_model';
 import { useSelector } from 'react-redux';
 
-
-
-
 export default function Skills () {
     let _lang_index = useSelector((state) => state.lang.value);
     const sUggestions = base.sUggestions;

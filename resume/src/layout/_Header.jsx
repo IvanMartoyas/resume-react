@@ -9,7 +9,7 @@ export default function Header ({isSitbar, setSitbar}) {
 
     const ROUTES  = [
         {
-            name: ['Главная', 'Home'],
+            name: ['Основное', 'Basic'],
             link: '/',
         },
         {

@@ -1,0 +1,42 @@
+.Man {
+    &__fio {
+        font-size: 2.3em;
+        font-weight: 600;
+        margin-bottom: .5em;
+        margin-top: .3em;
+        line-height: 1.2;
+    }
+    &__info {
+        display: flex;
+        gap: .7em;
+        font-weight: 400;
+    }
+    &__right {
+        align-items: center;
+        display: flex;
+    }
+    &__vacansyPrev {
+        font-weight: 400;
+        color: $acent2;
+    }
+    &__imgWrapper {
+        width: 100%;
+        height: 100%;
+        img {
+            height: 100%;
+            object-fit: cover;
+            width: 100%;
+            border-radius: $border-radius-middle;
+        }
+    }
+}
+@media screen and (max-width: 1024px) {
+    .Man {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .Man {
+        font-size: 13px;
+    }
+}

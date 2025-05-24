@@ -9,18 +9,8 @@ export default function Sitbar () {
     var _lang_index = useSelector((state) => state.lang.value);
     return (
        <>
-        <aside className="bg-light p-3 rounded-2">
-            <div>
-                <div className='vacancyTitle'>
-                    {base.vacancy[_lang_index]}  <br/> 
-                    {base.title_resume[_lang_index]}
-                </div>
-                <div className='mb-4 fs-4'>
-                    <b> {base.salary.label[_lang_index]}</b> <br />
-                    <div>{base.salary.value}</div>
-                </div>
-                
-            </div>
+       {/* bg-light */}
+        <aside className=" p-3 rounded-2">
             <Suggestions/>
             <div className="text-secondary">
                 <hr/>

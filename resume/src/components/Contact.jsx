@@ -7,8 +7,7 @@ export function Contacts () {
     return (
         <>
         
-        <div className='contacts p-3 mt-3'>
-            <hr />
+        <div className='contacts mt-4'>
             <h3>{contacts.label[_lang_index]}</h3>
             <div className="row mb-0 mb-lg-3">
                 <div className='col-12 col-sm-6 col-lg-4 mb-3 mb-lg-0'>

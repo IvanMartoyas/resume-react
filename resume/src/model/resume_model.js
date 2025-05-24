@@ -1,4 +1,20 @@
 export const base = {
+    man: {
+        FIO: {
+            name: ['Иван', 'Ivan'],
+            lastName: ['Мартояс', 'Martoyas'],
+            patronymic: ['Сергеевич', 'Sergeevich'],
+        },
+        age: {
+            label: ['Возраст','Age'],
+            value: 25,  
+        },
+        image: {
+            label: ['Фотография','Photo'],
+            selecting_index: 1,
+            data: ['4346699335722969003_99.jpg','4346699335722969008_99.jpg']
+        }
+    },
     resume_titel: ['Моё резюме', 'My resume'],
     lang_index: 0,
     vacancy: ['Вакансия: ','Vacancy: '],

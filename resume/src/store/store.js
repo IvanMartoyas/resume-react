@@ -5,5 +5,6 @@ import langReduser from './_lang'
 export const store = configureStore({
   reducer: {
     lang: langReduser,
+    "allowJs": true 
   },
 })

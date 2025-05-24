@@ -20,6 +20,7 @@ $box-shadow-light: 0 0 6px 0 #e2e2e2;
 @import './assets/scss/_lang';
 @import './assets/scss/_company';
 @import './assets/scss/_suggestions';
+@import './assets/scss/_man';
 
 
 * {
@@ -40,11 +41,10 @@ p {
   margin-bottom: 0;
 }
 .vacancyTitle {
-    font-size: 2em !important;
-    font-weight: 800 !important;
+    font-size: 1.5em;
+    font-weight: 500;
     letter-spacing: 1px;
     line-height: 1.2;
-    margin-bottom: 15px;
 }
 
 .main_sitbar {

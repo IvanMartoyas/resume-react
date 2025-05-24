@@ -1,6 +1,6 @@
 // import { useState } from 'react'
 import './App.scss'
-import Main_layout from './layout/Main_layout.jsx';
+import Main_layout from './layout/Main_layout';
 import { Provider } from 'react-redux';
 
 

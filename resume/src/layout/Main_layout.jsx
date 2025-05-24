@@ -24,7 +24,7 @@ export default function MainLayout () {
 
                     <div className={isSitbar? 'mt-4 mb-4 main_sitbar container': 'mt-4 mb-4 container'}>
                         {isSitbar? <Sitbar/> : ''}
-                        <main className="card p-3">
+                        <main className="">
                             <Routes>
                                 <Route exact path='/' element={<Home/>}/>
                                 <Route exact path='/works' element={<Works/>}/>
